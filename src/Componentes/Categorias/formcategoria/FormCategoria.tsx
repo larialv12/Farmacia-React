@@ -62,8 +62,8 @@ function FormCategorias() {
     }
 
     return (
-        <div className="container w-full md:w-1/2 mx-auto flex flex-col items-center justify-center bg-[#d6f2ee] py-10 px-4">
-            <h1 className="text-4xl text-center my-8 text-[#006D77]">
+        <div className="container w-full md:w-1/2 mx-auto flex flex-col items-center justify-center bg-[#f6f6f6] py-10 px-4">
+            <h1 className="text-4xl text-center my-8 text-[indigo-400]">
                 {id === undefined ? "Cadastrar Categoria" : "Editar Categoria"}
             </h1>
 
@@ -76,14 +76,14 @@ function FormCategorias() {
                         type="text"
                         placeholder="Digite o nome da categoria:"
                         name="nome"
-                        className="border-2 border-[#006D77] rounded p-2 text-[#2E2E2E]"
+                        className="border-2 border-[#6d0077] rounded p-2 text-[#2E2E2E]"
                         value={categorias.nome || ""}
                         onChange={atualizarEstado}
                     />
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="descricao" className="text-[#006D77]">
+                    <label htmlFor="descricao" className="text-[#fbfbfb]">
                         Descrição da Categoria
                     </label>
                     <input

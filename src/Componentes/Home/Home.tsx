@@ -1,4 +1,4 @@
-
+import Listacategoria from "../Categorias/listacategoria/listacategoria"
 function Home() {
     return (
         <>
@@ -24,7 +24,10 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </>
+
+            <Listacategoria/>
+         
+            </>
     )
 }
 
