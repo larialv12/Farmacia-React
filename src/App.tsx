@@ -6,8 +6,9 @@ import './App.css'
 import ListaCategoria from './Componentes/Categorias/listacategoria/listacategoria'
 import FormCategoria from './Componentes/Categorias/formcategoria/FormCategoria'
 import DeletarCategoria from './Componentes/Categorias/deletarcategoria/DeletarCategoria'
+import { Categorias } from './models/Categoria'
 
-// import edit (remove or complete this line if needed)
+
 
 function App() {
   return (

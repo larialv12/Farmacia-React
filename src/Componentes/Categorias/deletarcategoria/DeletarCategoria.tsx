@@ -1,6 +1,5 @@
 import {  useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-
 import { listar, deletar } from "../../../Services/Service";
 import { Categorias } from "../../../models/Categoria";
 
