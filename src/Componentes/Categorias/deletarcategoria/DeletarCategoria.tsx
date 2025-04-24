@@ -1,6 +1,5 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-
 import { listar, deletar } from "../../../Services/Service";
 import { Categorias } from "../../../models/Categoria";
 
@@ -12,8 +11,8 @@ import { Categorias } from "../../../models/Categoria";
 function DeletarCategoria() {
 
      const navigate = useNavigate();
-        const [categorias, setCategorias] = useState<Categorias>({} as Categorias);
-        
+     const [categorias, setCategorias] = useState<Categorias>({} as Categorias);
+
         const { id } = useParams<{ id: string }>();
     
         async function listarCategorias(id: string) {
