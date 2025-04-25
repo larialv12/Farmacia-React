@@ -4,7 +4,6 @@ import Navbar from './Componentes/Navbar/Navbar'
 import Home from './Componentes/Home/Home'
 import './App.css'
 import ListaCategoria from './Componentes/Categorias/listacategoria/listacategoria'
-import { Categorias } from './models/Categoria'
 import FormCategoria from './Componentes/Categorias/formcategoria/FormCategoria'
 import DeletarCategoria from './Componentes/Categorias/deletarcategoria/DeletarCategoria'
 
