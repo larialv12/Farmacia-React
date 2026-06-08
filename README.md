@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+# Farmácia Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub license](https://img.shields.io/github/license/larialv12/farmácia-front-end)
+![GitHub stars](https://img.shields.io/github/stars/larialv12/farmácia-front-end)
+![GitHub issues](https://img.shields.io/github/issues/larialv12/farmácia-front-end)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é o projeto front-end de uma aplicação para uma farmácia, desenvolvido com o objetivo de oferecer uma interface simples e eficiente para gestão e visualização de produtos farmacêuticos.
 
-## Expanding the ESLint configuration
+## Sumário
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Instalação](#instalação)
+- [Como usar](#como-usar)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Funcionalidades
+
+- Cadastro de novos produtos
+- Edição de produtos existentes
+- Exclusão de produtos
+- Integração com back-end via API REST
+
+## Tecnologias
+
+- React.js
+TypeScript 
+HTML5 e CSS3
+Vite
+Axios (para requisições HTTP)
+React Router DOM (para navegação)
+
+## Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/larialv12/farmácia-React
+
+# Entre no diretório
+cd farmácia-front-end
+
+# Instaleências
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como usar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm start
 ```
+
+## Contribuindo
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito por **Larissa Alves** — [@larialv12](https://github.com/larialv12)
