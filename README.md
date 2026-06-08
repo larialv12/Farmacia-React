@@ -39,7 +39,7 @@ React Router DOM (para navegação)
 git clone https://github.com/larialv12/farmácia-React
 
 # Entre no diretório
-cd farmácia-front-end
+cd farmácia-React
 
 # Instaleências
 npm install
